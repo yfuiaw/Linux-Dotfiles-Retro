@@ -1,0 +1,31 @@
+title-text: ""
+desktop-image: "background.png"
+terminal-left: "0"
+terminal-top: "0"
+terminal-border: "0"
+terminal-width: "100%"
+terminal-height: "100%"
+
++ boot_menu {
+  left = 134
+  top = 45%
+  width = 502
+  height = 35%
+  item_color = "#B59F8C"
+  selected_item_color = "#E6CFAE"
+  icon_width = 36
+  icon_height = 36
+  item_icon_space = 20
+  item_height = 40
+  item_padding = 2
+  item_spacing = 40
+}
+
++ label {
+  left = 134
+  top = 83%
+  align = "center"
+  id = "__timeout__"
+  text = "Selected system will start in %d seconds"
+  color = "#E6CFAE"
+}
